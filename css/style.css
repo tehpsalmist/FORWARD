@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Cantarell', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #252525;
+}
+
+.primary {
+	width: 100%;
+	height: 160px;
+	color: rgb(0, 185, 200);
+	font-weight: 700;
+	font-style: italic;
+	font-size: 146px;
+}
+
+.secondary {
+	width: 100%;
+	font-size: 1.5em;
+	color: #888;
+	padding: 0px 12px 30px 12px;
+	text-align-last: justify;
+}
+
+.year {
+	color: #eee;
+}
