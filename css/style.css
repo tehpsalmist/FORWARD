@@ -1,14 +1,18 @@
-* {
-	box-sizing: border-box;
+body {
 	font-family: 'Cantarell', sans-serif;
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .container {
 	width: 800px;
 	margin: 0 auto;
 	background-color: #252525;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .primary {
@@ -24,15 +28,16 @@
 	width: 100%;
 	font-size: 1.5em;
 	color: #888;
-	padding: 0px 12px 30px 12px;
-	text-align-last: justify;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .year {
 	color: #eee;
 }
 
-span {
+.spacing {
 	width: 7.142857%;
 	text-align: center;
 }
